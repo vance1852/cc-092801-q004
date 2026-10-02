@@ -1,3 +1,4 @@
-"""自然史实验样本保藏、实验复核与生物安全协作服务。"""
-from .service import BiosafetyService
-__all__ = ["BiosafetyService"]
+"""版本化海外授权与收益台账。"""
+from .service_ledger import LicensingService
+
+__all__ = ["LicensingService"]
